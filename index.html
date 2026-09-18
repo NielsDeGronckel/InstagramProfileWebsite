@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Niels de Gronckel</title>
+    <meta name="description" content="Somewhere between the lines: a creative director.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Niels de Gronckel">
+    <meta property="og:description" content="Somewhere between the lines: a creative director.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="page">
+        <h1 class="headline">Somewhere between the lines: a creative director.</h1>
+
+        <nav class="socials">
+            <a class="social" href="https://www.instagram.com/nielsdegronckel/" target="_blank" rel="noopener">
+                <svg class="social__icon"><use href="#icon-instagram"></use></svg>
+                @nielsdegronckel
+            </a>
+            <a class="social" href="https://www.tiktok.com/@niels0162" target="_blank" rel="noopener">
+                <svg class="social__icon"><use href="#icon-tiktok"></use></svg>
+                @nielsdegronckel
+            </a>
+        </nav>
+
+        <nav class="links">
+            <a class="link" href="https://www.instagram.com/isle_project/" target="_blank" rel="noopener">
+                <img class="link__mark link__mark--isle" src="isle-project.png" alt="">
+                <span class="link__label">
+                    <span class="link__name">Isle Project</span>
+                    <span class="link__handle">@isle_project</span>
+                </span>
+                <span class="link__action">Follow</span>
+            </a>
+            <a class="link" href="https://open.spotify.com/user/12j5iagwjgune3bi6xjfc76qx" target="_blank" rel="noopener">
+                <span class="link__mark link__mark--spotify">
+                    <svg class="link__icon"><use href="#icon-spotify"></use></svg>
+                </span>
+                <span class="link__label">
+                    <span class="link__name">Spotify</span>
+                    <span class="link__handle">@nielsdegronckel</span>
+                </span>
+                <span class="link__action">Follow</span>
+            </a>
+        </nav>
+    </main>
+
+    <p class="credit">© Niels de Gronckel</p>
+    <div class="bar"></div>
+
+    <svg class="sprite" aria-hidden="true">
+        <defs>
+            <radialGradient id="instagram-gradient" cx=".28" cy="1.05" r="1.2">
+                <stop offset="0" stop-color="#FFD776"/>
+                <stop offset=".18" stop-color="#F8A33A"/>
+                <stop offset=".38" stop-color="#F35B4B"/>
+                <stop offset=".58" stop-color="#D62E86"/>
+                <stop offset=".8" stop-color="#8A3AB9"/>
+                <stop offset="1" stop-color="#4C63D2"/>
+            </radialGradient>
+            <path id="tiktok-note" d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 1 1-2.6-2.6c.27 0 .53.04.78.12V9.66c-.26-.03-.52-.05-.78-.05a5.7 5.7 0 1 0 5.7 5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3c-.01 0-1.89.09-3.25-1.48Z"/>
+        </defs>
+
+        <symbol id="icon-instagram" viewBox="0 0 24 24">
+            <rect width="24" height="24" rx="6.4" fill="url(#instagram-gradient)"/>
+            <g fill="none" stroke="#fff" stroke-width="1.7">
+                <rect x="5.5" y="5.5" width="13" height="13" rx="4.1"/>
+                <circle cx="12" cy="12" r="3.25"/>
+            </g>
+            <circle cx="16.5" cy="7.5" r="1.05" fill="#fff"/>
+        </symbol>
+
+        <symbol id="icon-tiktok" viewBox="0 0 24 24">
+            <rect width="24" height="24" rx="5.6"/>
+            <g transform="translate(3.4 3.4) scale(.72)">
+                <use href="#tiktok-note" x="-.85" y="-.85" fill="#25F4EE"/>
+                <use href="#tiktok-note" x=".85" y=".85" fill="#FE2C55"/>
+                <use href="#tiktok-note" fill="#fff"/>
+            </g>
+        </symbol>
+
+        <symbol id="icon-spotify" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M8 0C3.6 0 0 3.6 0 8c0 4.4 3.6 8 8 8s8-3.6 8-8c0-4.4-3.56-8-8-8m3.681 11.56c-.16.239-.44.32-.681.16-1.88-1.16-4.24-1.401-7.041-.761-.278.082-.519-.119-.599-.359-.08-.281.12-.52.36-.6 3.04-.681 5.68-.4 7.76.88.28.12.319.439.201.68m.96-2.2c-.201.28-.561.4-.842.2-2.159-1.32-5.439-1.72-7.959-.92-.319.08-.68-.08-.76-.4-.08-.32.08-.681.4-.761 2.92-.879 6.52-.438 9 1.081.241.121.36.52.161.8m.08-2.24C10.16 5.6 5.88 5.44 3.44 6.201c-.4.119-.8-.121-.92-.481-.12-.401.12-.8.48-.921 2.84-.84 7.52-.68 10.481 1.081.359.2.479.68.279 1.04-.199.281-.68.399-1.039.2"/>
+        </symbol>
+    </svg>
+</body>
+</html>
